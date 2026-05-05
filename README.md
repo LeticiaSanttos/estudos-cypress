@@ -1,23 +1,41 @@
-# 🧪 Estudos de Automação com Cypress
+# 🧪 Automação de Testes E2E com Cypress
 
-Repositório dedicado ao aprendizado de testes de ponta a ponta (E2E) utilizando o framework **Cypress**. Este projeto faz parte da minha evolução técnica como QA e estudante de Análise e Desenvolvimento de Sistemas.
+Projeto prático de automação de testes end-to-end (E2E) utilizando Cypress, com foco na validação de fluxos de usuário em aplicações web.
 
-## 🚀 Tecnologias e Ferramentas
-* **Linguagem:** JavaScript
-* **Framework:** Cypress
-* **Editor de Código:** VS Code
-* **Versionamento:** Git
-
-## 📚 O que estou praticando:
-- [x] Configuração de ambiente e seletores (ID, Name, Data-test).
-- [x] Asserções de igualdade, objetos e arrays (Chai).
-- [x] Interação com elementos (type, click, visit).
-- [x] Manipulação de comandos assíncronos com `.then()`.
-
-## 🛠️ Como rodar o projeto
-1. Clone o repositório: `git clone https://github.com/LeticiaSanttos/estudos-cypress.git`
-2. Instale as dependências: `npm install`
-3. Abra o Cypress: `npx cypress open`
+Este repositório faz parte da minha evolução como QA, aplicando na prática conceitos de automação de testes, boas práticas e validação de funcionalidades.
 
 ---
-✨ *Desenvolvido por Letícia dos Santos Castro durante meus estudos de QA.*
+
+## 🚀 Tecnologias e Ferramentas
+
+- JavaScript  
+- Cypress  
+- Node.js  
+- VS Code  
+- Git  
+
+---
+
+## 📌 Funcionalidades Testadas
+
+- Interação com elementos da interface (click, type, visit)
+- Validação de elementos e dados na tela
+- Uso de seletores (ID, Name, data-test)
+- Escrita de testes com asserções utilizando Chai
+- Manipulação de comandos assíncronos com `.then()`
+
+---
+
+## 🧪 Objetivo do Projeto
+
+Aplicar na prática conceitos de automação de testes E2E, garantindo a validação de comportamentos da aplicação e simulando ações reais de usuários.
+
+---
+
+## ▶️ Como executar o projeto
+
+```bash
+git clone https://github.com/LeticiaSanttos/estudos-cypress.git
+cd estudos-cypress
+npm install
+npx cypress open
